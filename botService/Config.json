@@ -1,0 +1,23 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "Config": {
+    "conectionstring": "Server=tcp:botalice.database.windows.net,1433;Initial Catalog=bot;Persist Security Info=False;User ID=i9admin;Password=6F6h+MKVK+M1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "tipobancodados": "SQLSRV"
+  },
+  "alice": {
+    "conectionstring": "Server=tcp:integrador.database.windows.net,1433;Initial Catalog=i9ativa;Persist Security Info=False;User ID=i9admin;Password=8nbzw4FFrXEzJui;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "tipobancodados": "SQLSRV"
+  },
+  "sofia": {
+    "conectionstring": "Server=tcp:integrador.database.windows.net,1433;Initial Catalog=i9ativa;Persist Security Info=False;User ID=i9admin;Password=8nbzw4FFrXEzJui;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "tipobancodados": "SQLSRV"
+  },
+  "renata": {
+    "conectionstring": "Server=tcp:integrador.database.windows.net,1433;Initial Catalog=i9ativa;Persist Security Info=False;User ID=i9admin;Password=8nbzw4FFrXEzJui;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "tipobancodados": "SQLSRV"
+  },
+  "gerenciador": {
+    "conectionstring": "Server=tcp:integrador.database.windows.net,1433;Initial Catalog=i9ativa;Persist Security Info=False;User ID=i9admin;Password=8nbzw4FFrXEzJui;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "tipobancodados": "SQLSRV"
+  }
+}
